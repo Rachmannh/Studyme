@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+}
+
+:root {
+  --main-font: "Poppins", sans-serif;
+  --color-1: #31b380;
+  --color-2: #0c2e62;
+  --color-3: #211b3d;
+  --color-4: #ffffff;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: var(--color-4);
+  font-family: var(--main-font);
+}
+
+/* Nav */
+
+nav {
+  height: 100px;
+}
+
+.navbar-logo {
+  width: 36px;
+  height: 37.87px;
+}
+
+.navbar-brand span {
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #211b3d;
+  margin-left: 11px;
+}
+
+.nav-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-3);
+  margin-right: 31px;
+}
+
+.nav-link:hover {
+  color: var(--color-1);
+  transition: all 0.5s;
+}
+
+.active {
+  color: var(--color-1) !important;
+}
+
+.btn-outline-success {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-1);
+  border: 1px solid var(--color-1);
+  margin-right: 19px;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:active,
+.btn-outline-success:focus,
+.btn-outline-success:active {
+  color: var(--color-4);
+  border: 1px solid var(--color-1) !important;
+  background-color: var(--color-1) !important;
+  margin-right: 19px;
+}
+
+.btn-success {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  background-color: var(--color-1);
+  color: var(--color-4);
+  border: 1px solid var(--color-1);
+}
+
+.btn-success:hover {
+  background-color: var(--color-1);
+  color: var(--color-4);
+  border: 1px solid var(--color-1);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:active {
+  color: var(--color-4);
+  border: 1px solid var(--color-1) !important;
+  background-color: var(--color-1) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    margin-top: 10px;
+  }
+  .navbar-logo {
+    width: 32px;
+    height: 33.87px;
+  }
+  .navbar-brand span {
+    font-size: 22px;
+    color: #211b3d;
+    margin-left: 10px;
+  }
+}
+
+/* Nav End */
+
+/* Hero */
+
+#myHero {
+  width: 100%;
+  height: 691px;
+  background: var(--color-2);
+}
+
+.hero-section {
+  align-items: center;
+}
+
+.hero-section h6 {
+  margin-top: 140px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-1);
+}
+
+.hero-section h1 {
+  width: 609px;
+  height: 180px;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 90px;
+  color: var(--color-4);
+}
+
+.hero-section span {
+  color: var(--color-1);
+}
+
+.hero-section img {
+  width: 490px;
+  height: 340px;
+  height: auto;
+  left: 820px;
+  top: 236px;
+}
+
+.hero-sub-heading h1 {
+  width: 367px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-4);
+}
+
+.hero-sub-heading .btn-success {
+  margin-top: 30px;
+  width: 150px;
+  height: 45px;
+  border-radius: 47px;
+}
+
+.hero-image {
+  position: relative;
+  margin-top: 76px;
+}
+
+.hero-image .play-button {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+}
+
+.card-left-top {
+  position: relative;
+}
+
+.card-left-top .card {
+  border: transparent;
+  position: absolute;
+  right: 320px;
+  bottom: 300px;
+  width: 213px;
+  height: 112px;
+  background: var(--color-4);
+  border-radius: 10px;
+}
+
+.card-left-top h5 {
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #211b3d;
+}
+
+.card-left-top p {
+  width: 185px;
+  height: 42px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5b5575;
+}
+
+/* Hero End */
