@@ -217,8 +217,12 @@ nav {
   height: 50px;
 }
 
-.card-left-top {
+.card-left-top,
+.card-bottom-right {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-left-top .card {
@@ -232,7 +236,7 @@ nav {
   border-radius: 10px;
 }
 
-.card-left-top h5 {
+.card-left-top .card-title {
   position: relative;
   font-style: normal;
   font-weight: 500;
@@ -241,9 +245,51 @@ nav {
   color: #211b3d;
 }
 
+.card-left-top img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
 .card-left-top p {
   width: 185px;
   height: 42px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5b5575;
+}
+
+.card-bottom-right .card {
+  border: transparent;
+  position: absolute;
+  width: 213px;
+  height: 119px;
+  left: 325px;
+  top: -70px;
+  background: var(--color-4);
+  border-radius: 10px;
+}
+
+.card-bottom-right .card-title {
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #211b3d;
+}
+
+.card-bottom-right img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.card-bottom-right p {
+  width: 192px;
+  height: 63px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
