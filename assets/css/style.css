@@ -6,7 +6,7 @@
 
 html {
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 :root {
@@ -20,7 +20,7 @@ html {
 body {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 400vh;
   background-color: var(--color-4);
   font-family: var(--main-font);
 }
