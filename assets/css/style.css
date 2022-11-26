@@ -318,13 +318,6 @@ nav {
     line-height: 46px;
     color: var(--color-4);
   }
-  .hero-section img {
-    width: 290px;
-    height: 140px;
-    height: auto;
-    left: 820px;
-    top: 236px;
-  }
   .hero-img {
     min-width: 100%;
     min-height: 100%;
