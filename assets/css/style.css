@@ -297,4 +297,51 @@ nav {
   color: #5b5575;
 }
 
+@media only screen and (max-width: 600px) {
+  #myHero {
+    width: 100%;
+    height: 1100px;
+    background: var(--color-2);
+  }
+  .hero-section h6 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .hero-section h1 {
+    width: 609px;
+    height: 100px;
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 46px;
+    color: var(--color-4);
+  }
+  .hero-section img {
+    width: 290px;
+    height: 140px;
+    height: auto;
+    left: 820px;
+    top: 236px;
+  }
+  .hero-img {
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+  .hero-sub-heading h1 {
+    width: 340px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-4);
+  }
+}
+
 /* Hero End */
